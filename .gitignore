@@ -1,0 +1,121 @@
+# Ignore core WordPress files
+wp-config.php
+wp-content/languages/
+wp-content/upgrade/
+wp-content/backup-db/
+wp-content/advanced-cache.php
+wp-content/cache/
+wp-content/backup-db/
+wp-content/upgrade/
+wp-content/uploads/
+wp-content/upgrade/
+wp-content/extra/
+wp-content/*.bak
+wp-content/*.back
+
+# Ignore all files in the uploads directory
+wp-content/uploads/*
+
+# Ignore plugin files
+wp-content/plugins/*
+!wp-content/plugins/index.php
+
+# Ignore theme files
+wp-content/themes/*
+!wp-content/themes/index.php
+
+# Ignore specific files
+.htaccess
+error_log
+sitemap.xml
+sitemap.xml.gz
+
+# Ignore development related files and directories
+node_modules/
+npm-debug.log
+*.log
+*.md
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore deployment scripts
+deploy.sh
+
+
+# Ignore WordPress core files
+wp-admin/
+wp-includes/
+
+# Ignore WordPress configuration files
+wp-config.php
+wp-config-sample.php
+
+# Ignore WordPress content directory
+wp-content/
+
+# Ignore WordPress configuration files
+wp-settings.php
+
+# Ignore database backup files
+*.sql
+*.sql.gz
+
+# Ignore WordPress installation files
+license.txt
+readme.html
+
+# Ignore various WordPress cache directories
+wp-content/cache/
+wp-content/upgrade/
+wp-content/backup-db/
+wp-content/advanced-cache.php
+
+# Ignore WordPress debug log files
+wp-content/debug.log
+
+# Ignore WordPress upgrade directories
+wp-content/updraft/
+wp-content/uploads/
+wp-content/upgrade/
+
+# Ignore WordPress temporary files
+*.log
+*.tmp
+
+# Ignore WordPress specific files
+sitemap.xml
+sitemap.xml.gz
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore text editor backup files
+*~
+.*.swp
+
+# Ignore deployment scripts
+deploy.sh
+
+# Ignore IDE project files
+.idea/
+.vscode/
+
+
+# Ignore LocalWP configuration files
+.localwp/
+.localwp-config/
+
+# Ignore database files
+*.sql
+*.sql.gz
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE project files
+.idea/
+.vscode/
